@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".presentation.onboarding.ViewPagerFragment"
+    android:background="@color/bg_onboard_light"
+    android:paddingVertical="64dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonOnBoardingAction"
+        android:backgroundTint="@color/bg_onboard_dark"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="16sp"
+        android:text="@string/next"
+        android:elevation="1dp"
+        style="@style/DefaultTextStyle.SubtitleTextStyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp_onboarding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/layoutOnboardingIndicators"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="@id/buttonOnBoardingAction"
+        app:layout_constraintEnd_toStartOf="@id/buttonOnBoardingAction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/buttonOnBoardingAction"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

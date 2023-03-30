@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">VisionIn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="onboard1_title">Empowering the visually impaired community</string>
+    <string name="onboard2_title">Bringing the power of AI to your fingertips</string>
+    <string name="onboard3_title">Please enable microphone</string>
+    <string name="onboard4_title">Please enable camera</string>
+    <string name="onboard1_subtitle">Our mobile app puts the power of sight back in your hands, allowing you to identify objects and obstacles in your path with ease, whether you\'re indoors or out.</string>
+    <string name="onboard2_subtitle">With our app, you can identify objects, read text, and explore your surroundings with confidence, thanks to using AI.</string>
+    <string name="onboard3_subtitle">We use voice commands and speech recognition to allow users to interact with the app hands-free, giving them greater freedom and flexibility.</string>
+    <string name="onboard4_subtitle">Using advanced artificial intelligence and computer vision algorithms, our app analyzes the live camera feed to recognize objects, people, and other visual elements in the user\'s environment.</string>
+    <string name="step_1">Step 1</string>
+    <string name="step_2">Step 2</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="ask_a_question">Ask a question</string>
+</resources>

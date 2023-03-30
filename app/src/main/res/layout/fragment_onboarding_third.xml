@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.onboarding.screens.ThirdFragment"
+    android:paddingHorizontal="24dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/step_1"
+        style="@style/DefaultTextStyle.TitleTextStyle"/>
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_step1"
+        android:layout_gravity="center"
+        android:padding="48dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onboard3_title"
+        style="@style/DefaultTextStyle.TitleTextStyle"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onboard3_subtitle"
+        android:gravity="center_horizontal"
+        style="@style/DefaultTextStyle.SubtitleTextStyle"/>
+
+</LinearLayout>
