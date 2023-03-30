@@ -1,5 +1,5 @@
 # VisionIn
-Android application for AI assistant designed specifically to empower individuals with visual impairments and provides
+Android application for AI assistant designed specifically to empower individuals with visual impairments, which provides
 users with a seamless and supportive experience in navigating their surroundings. 
 
 ## Features
@@ -23,4 +23,4 @@ users with a seamless and supportive experience in navigating their surroundings
 ## Screenshots
 Speech Recognition | Responding | Answer is displayed and voiced
 --- | --- | --- 
-<img src="assets/speech_recognition.png" width="200"> | <img src="assets/responding.png" width="200"> | <img src="assets/answer.png" width="200"> 
+<img src="assets/speech_recognizer.jpg" width="250"> | <img src="assets/responding.jpg" width="250"> | <img src="assets/answer.jpg" width="250"> 
