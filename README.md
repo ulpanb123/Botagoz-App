@@ -1,4 +1,4 @@
-# VisionIn
+# Botagoz App
 Android application for AI assistant designed specifically to empower individuals with visual impairments, which provides
 users with a seamless and supportive experience in navigating their surroundings. 
 
