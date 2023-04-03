@@ -6,7 +6,7 @@ users with a seamless and supportive experience in navigating their surroundings
 
 <img src="assets/algorithm.png" width="750">
 
-An Android phone sends the photo and the question to the FastAPI backend. It appends the question to the chat log. Then, a classifier based on ChatGPT analyzes whether it needs visual context. If so, it uses BLIP via the Replicate.com API and processes it. If not, it answers the question as it is. To see the implementation, please refer to the [backend repository](https://github.com/armanbolatov/visual_ai).
+An Android phone sends the photo and the question to the FastAPI backend. It appends the question to the chat log. Then, a classifier based on ChatGPT analyzes whether it needs visual context. If so, it uses BLIP via the Replicate.com API and processes it. If not, it answers the question as it is. To see the implementation, please refer to the [backend repository](https://github.com/armanbolatov/botagoz_app_backend).
 
 ## Features
 - image capturing
