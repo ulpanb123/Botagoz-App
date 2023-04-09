@@ -2,6 +2,11 @@
 Android application for AI assistant designed specifically to empower individuals with visual impairments, which provides
 users with a seamless and supportive experience in navigating their surroundings. 
 
+## Demo
+
+https://user-images.githubusercontent.com/73545133/230759711-4c4a0c63-d6b1-4f5f-9353-746bf8e009ee.mp4
+
+
 ## Algorithm
 
 <img src="assets/algorithm.png" width="750">
@@ -30,3 +35,6 @@ An Android phone sends the photo and the question to the FastAPI backend. It app
 Speech Recognition | Responding | Answer is displayed and voiced
 --- | --- | --- 
 <img src="assets/speech_recognizer.jpg" width="250"> | <img src="assets/responding.jpg" width="250"> | <img src="assets/answer.jpg" width="250"> 
+
+
+This application was developed for the GDSC Solution Challenge 2023. You can watch our demo video [here](https://www.youtube.com/watch?v=QowrdfgAubo)
